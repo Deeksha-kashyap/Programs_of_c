@@ -122,59 +122,32 @@ Programs_of_c/fast:
 	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/build
 .PHONY : Programs_of_c/fast
 
-main.obj: main.c.obj
+perfectpointer.obj: perfectpointer.c.obj
 
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/main.c.s
-.PHONY : main.c.s
-
-program.obj: program.c.obj
-
-.PHONY : program.obj
+.PHONY : perfectpointer.obj
 
 # target to build an object file
-program.c.obj:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/program.c.obj
-.PHONY : program.c.obj
+perfectpointer.c.obj:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj
+.PHONY : perfectpointer.c.obj
 
-program.i: program.c.i
+perfectpointer.i: perfectpointer.c.i
 
-.PHONY : program.i
+.PHONY : perfectpointer.i
 
 # target to preprocess a source file
-program.c.i:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/program.c.i
-.PHONY : program.c.i
+perfectpointer.c.i:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/perfectpointer.c.i
+.PHONY : perfectpointer.c.i
 
-program.s: program.c.s
+perfectpointer.s: perfectpointer.c.s
 
-.PHONY : program.s
+.PHONY : perfectpointer.s
 
 # target to generate assembly for a file
-program.c.s:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/program.c.s
-.PHONY : program.c.s
+perfectpointer.c.s:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/perfectpointer.c.s
+.PHONY : perfectpointer.c.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... Programs_of_c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... program.obj
-	@echo ... program.i
-	@echo ... program.s
+	@echo ... perfectpointer.obj
+	@echo ... perfectpointer.i
+	@echo ... perfectpointer.s
 .PHONY : help
 
 

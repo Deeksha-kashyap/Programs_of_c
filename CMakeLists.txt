@@ -3,4 +3,5 @@ project(Programs_of_c C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Programs_of_c main.c cmake-build-debug/program.c cmake-build-debug/program.h)
+
+add_executable(Programs_of_c perfectpointer.c cmake-build-debug/  perfectpointer.c)

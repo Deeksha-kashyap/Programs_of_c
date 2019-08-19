@@ -56,47 +56,32 @@ include CMakeFiles/Programs_of_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Programs_of_c.dir/flags.make
 
-CMakeFiles/Programs_of_c.dir/main.c.obj: CMakeFiles/Programs_of_c.dir/flags.make
-CMakeFiles/Programs_of_c.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Programs_of_c.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Programs_of_c.dir\main.c.obj   -c "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\main.c"
+CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj: CMakeFiles/Programs_of_c.dir/flags.make
+CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj: ../perfectpointer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Programs_of_c.dir\perfectpointer.c.obj   -c "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\perfectpointer.c"
 
-CMakeFiles/Programs_of_c.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programs_of_c.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\main.c" > CMakeFiles\Programs_of_c.dir\main.c.i
+CMakeFiles/Programs_of_c.dir/perfectpointer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programs_of_c.dir/perfectpointer.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\perfectpointer.c" > CMakeFiles\Programs_of_c.dir\perfectpointer.c.i
 
-CMakeFiles/Programs_of_c.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programs_of_c.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\main.c" -o CMakeFiles\Programs_of_c.dir\main.c.s
-
-CMakeFiles/Programs_of_c.dir/program.c.obj: CMakeFiles/Programs_of_c.dir/flags.make
-CMakeFiles/Programs_of_c.dir/program.c.obj: program.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Programs_of_c.dir/program.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Programs_of_c.dir\program.c.obj   -c "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\program.c"
-
-CMakeFiles/Programs_of_c.dir/program.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programs_of_c.dir/program.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\program.c" > CMakeFiles\Programs_of_c.dir\program.c.i
-
-CMakeFiles/Programs_of_c.dir/program.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programs_of_c.dir/program.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\program.c" -o CMakeFiles\Programs_of_c.dir\program.c.s
+CMakeFiles/Programs_of_c.dir/perfectpointer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programs_of_c.dir/perfectpointer.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\perfectpointer.c" -o CMakeFiles\Programs_of_c.dir\perfectpointer.c.s
 
 # Object files for target Programs_of_c
 Programs_of_c_OBJECTS = \
-"CMakeFiles/Programs_of_c.dir/main.c.obj" \
-"CMakeFiles/Programs_of_c.dir/program.c.obj"
+"CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj"
 
 # External object files for target Programs_of_c
 Programs_of_c_EXTERNAL_OBJECTS =
 
-Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/main.c.obj
-Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/program.c.obj
+Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/build.make
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/linklibs.rsp
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/objects1.rsp
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Programs_of_c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Programs_of_c.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Programs_of_c.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
