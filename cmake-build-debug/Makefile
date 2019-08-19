@@ -122,32 +122,32 @@ Programs_of_c/fast:
 	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/build
 .PHONY : Programs_of_c/fast
 
-perfectpointer.obj: perfectpointer.c.obj
+smallestlargest.obj: smallestlargest.c.obj
 
-.PHONY : perfectpointer.obj
+.PHONY : smallestlargest.obj
 
 # target to build an object file
-perfectpointer.c.obj:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj
-.PHONY : perfectpointer.c.obj
+smallestlargest.c.obj:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/smallestlargest.c.obj
+.PHONY : smallestlargest.c.obj
 
-perfectpointer.i: perfectpointer.c.i
+smallestlargest.i: smallestlargest.c.i
 
-.PHONY : perfectpointer.i
+.PHONY : smallestlargest.i
 
 # target to preprocess a source file
-perfectpointer.c.i:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/perfectpointer.c.i
-.PHONY : perfectpointer.c.i
+smallestlargest.c.i:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/smallestlargest.c.i
+.PHONY : smallestlargest.c.i
 
-perfectpointer.s: perfectpointer.c.s
+smallestlargest.s: smallestlargest.c.s
 
-.PHONY : perfectpointer.s
+.PHONY : smallestlargest.s
 
 # target to generate assembly for a file
-perfectpointer.c.s:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/perfectpointer.c.s
-.PHONY : perfectpointer.c.s
+smallestlargest.c.s:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/smallestlargest.c.s
+.PHONY : smallestlargest.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Programs_of_c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... perfectpointer.obj
-	@echo ... perfectpointer.i
-	@echo ... perfectpointer.s
+	@echo ... smallestlargest.obj
+	@echo ... smallestlargest.i
+	@echo ... smallestlargest.s
 .PHONY : help
 
 

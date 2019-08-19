@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programs_of_c.dir/perfectpointer.c.obj"
+  "CMakeFiles/Programs_of_c.dir/smallestlargest.c.obj"
   "Programs_of_c.pdb"
   "Programs_of_c.exe"
   "Programs_of_c.exe.manifest"
