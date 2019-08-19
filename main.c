@@ -15,9 +15,13 @@ void leftRotatebyOne(int a[],int n)
 }
 void print(int a[],int n)
 {
-
+  int i;
+  for(i=0;i<n;i++)
+      printf("%d",a[i]);
 }
 int main() {
-    printf("Hello, World!\n");
+    int a[]={1,2,3,4,5,6};
+    leftRotate(a,2,6);
+    print(a,6);
     return 0;
 }
