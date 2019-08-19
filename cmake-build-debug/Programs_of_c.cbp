@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/cmake-build-debug/program.c">
+			<Option target="Programs_of_c"/>
+		</Unit>
+		<Unit filename="C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/cmake-build-debug/program.h">
+			<Option target="Programs_of_c"/>
+		</Unit>
 		<Unit filename="C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/main.c">
 			<Option target="Programs_of_c"/>
 		</Unit>
