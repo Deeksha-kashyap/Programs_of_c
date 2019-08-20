@@ -122,32 +122,32 @@ Programs_of_c/fast:
 	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/build
 .PHONY : Programs_of_c/fast
 
-smallestlargest.obj: smallestlargest.c.obj
+arrayprogram.obj: arrayprogram.c.obj
 
-.PHONY : smallestlargest.obj
+.PHONY : arrayprogram.obj
 
 # target to build an object file
-smallestlargest.c.obj:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/smallestlargest.c.obj
-.PHONY : smallestlargest.c.obj
+arrayprogram.c.obj:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj
+.PHONY : arrayprogram.c.obj
 
-smallestlargest.i: smallestlargest.c.i
+arrayprogram.i: arrayprogram.c.i
 
-.PHONY : smallestlargest.i
+.PHONY : arrayprogram.i
 
 # target to preprocess a source file
-smallestlargest.c.i:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/smallestlargest.c.i
-.PHONY : smallestlargest.c.i
+arrayprogram.c.i:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayprogram.c.i
+.PHONY : arrayprogram.c.i
 
-smallestlargest.s: smallestlargest.c.s
+arrayprogram.s: arrayprogram.c.s
 
-.PHONY : smallestlargest.s
+.PHONY : arrayprogram.s
 
 # target to generate assembly for a file
-smallestlargest.c.s:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/smallestlargest.c.s
-.PHONY : smallestlargest.c.s
+arrayprogram.c.s:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayprogram.c.s
+.PHONY : arrayprogram.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Programs_of_c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... smallestlargest.obj
-	@echo ... smallestlargest.i
-	@echo ... smallestlargest.s
+	@echo ... arrayprogram.obj
+	@echo ... arrayprogram.i
+	@echo ... arrayprogram.s
 .PHONY : help
 
 
