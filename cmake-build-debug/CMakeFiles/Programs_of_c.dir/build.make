@@ -56,27 +56,27 @@ include CMakeFiles/Programs_of_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Programs_of_c.dir/flags.make
 
-CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj: CMakeFiles/Programs_of_c.dir/flags.make
-CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj: ../arrayprogram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Programs_of_c.dir\arrayprogram.c.obj   -c "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\arrayprogram.c"
+CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj: CMakeFiles/Programs_of_c.dir/flags.make
+CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj: ../arrayrotation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Programs_of_c.dir\arrayrotation.c.obj   -c "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\arrayrotation.c"
 
-CMakeFiles/Programs_of_c.dir/arrayprogram.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programs_of_c.dir/arrayprogram.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\arrayprogram.c" > CMakeFiles\Programs_of_c.dir\arrayprogram.c.i
+CMakeFiles/Programs_of_c.dir/arrayrotation.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Programs_of_c.dir/arrayrotation.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\arrayrotation.c" > CMakeFiles\Programs_of_c.dir\arrayrotation.c.i
 
-CMakeFiles/Programs_of_c.dir/arrayprogram.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programs_of_c.dir/arrayprogram.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\arrayprogram.c" -o CMakeFiles\Programs_of_c.dir\arrayprogram.c.s
+CMakeFiles/Programs_of_c.dir/arrayrotation.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Programs_of_c.dir/arrayrotation.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Deeksha Kashyap\CLionProject\Programs of c\Example\arrayrotation.c" -o CMakeFiles\Programs_of_c.dir\arrayrotation.c.s
 
 # Object files for target Programs_of_c
 Programs_of_c_OBJECTS = \
-"CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj"
+"CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj"
 
 # External object files for target Programs_of_c
 Programs_of_c_EXTERNAL_OBJECTS =
 
-Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj
+Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/build.make
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/linklibs.rsp
 Programs_of_c.exe: CMakeFiles/Programs_of_c.dir/objects1.rsp

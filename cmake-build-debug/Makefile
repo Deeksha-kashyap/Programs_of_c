@@ -122,32 +122,32 @@ Programs_of_c/fast:
 	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/build
 .PHONY : Programs_of_c/fast
 
-arrayprogram.obj: arrayprogram.c.obj
+arrayrotation.obj: arrayrotation.c.obj
 
-.PHONY : arrayprogram.obj
+.PHONY : arrayrotation.obj
 
 # target to build an object file
-arrayprogram.c.obj:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayprogram.c.obj
-.PHONY : arrayprogram.c.obj
+arrayrotation.c.obj:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj
+.PHONY : arrayrotation.c.obj
 
-arrayprogram.i: arrayprogram.c.i
+arrayrotation.i: arrayrotation.c.i
 
-.PHONY : arrayprogram.i
+.PHONY : arrayrotation.i
 
 # target to preprocess a source file
-arrayprogram.c.i:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayprogram.c.i
-.PHONY : arrayprogram.c.i
+arrayrotation.c.i:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayrotation.c.i
+.PHONY : arrayrotation.c.i
 
-arrayprogram.s: arrayprogram.c.s
+arrayrotation.s: arrayrotation.c.s
 
-.PHONY : arrayprogram.s
+.PHONY : arrayrotation.s
 
 # target to generate assembly for a file
-arrayprogram.c.s:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayprogram.c.s
-.PHONY : arrayprogram.c.s
+arrayrotation.c.s:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayrotation.c.s
+.PHONY : arrayrotation.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Programs_of_c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... arrayprogram.obj
-	@echo ... arrayprogram.i
-	@echo ... arrayprogram.s
+	@echo ... arrayrotation.obj
+	@echo ... arrayrotation.i
+	@echo ... arrayrotation.s
 .PHONY : help
 
 
