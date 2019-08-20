@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj"
+  "CMakeFiles/Programs_of_c.dir/tripletprogram.c.obj"
   "Programs_of_c.pdb"
   "Programs_of_c.exe"
   "Programs_of_c.exe.manifest"

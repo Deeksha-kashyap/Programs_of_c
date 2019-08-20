@@ -122,32 +122,32 @@ Programs_of_c/fast:
 	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/build
 .PHONY : Programs_of_c/fast
 
-arrayrotation.obj: arrayrotation.c.obj
+tripletprogram.obj: tripletprogram.c.obj
 
-.PHONY : arrayrotation.obj
+.PHONY : tripletprogram.obj
 
 # target to build an object file
-arrayrotation.c.obj:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj
-.PHONY : arrayrotation.c.obj
+tripletprogram.c.obj:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/tripletprogram.c.obj
+.PHONY : tripletprogram.c.obj
 
-arrayrotation.i: arrayrotation.c.i
+tripletprogram.i: tripletprogram.c.i
 
-.PHONY : arrayrotation.i
+.PHONY : tripletprogram.i
 
 # target to preprocess a source file
-arrayrotation.c.i:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayrotation.c.i
-.PHONY : arrayrotation.c.i
+tripletprogram.c.i:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/tripletprogram.c.i
+.PHONY : tripletprogram.c.i
 
-arrayrotation.s: arrayrotation.c.s
+tripletprogram.s: tripletprogram.c.s
 
-.PHONY : arrayrotation.s
+.PHONY : tripletprogram.s
 
 # target to generate assembly for a file
-arrayrotation.c.s:
-	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/arrayrotation.c.s
-.PHONY : arrayrotation.c.s
+tripletprogram.c.s:
+	$(MAKE) -f CMakeFiles\Programs_of_c.dir\build.make CMakeFiles/Programs_of_c.dir/tripletprogram.c.s
+.PHONY : tripletprogram.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... Programs_of_c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... arrayrotation.obj
-	@echo ... arrayrotation.i
-	@echo ... arrayrotation.s
+	@echo ... tripletprogram.obj
+	@echo ... tripletprogram.i
+	@echo ... tripletprogram.s
 .PHONY : help
 
 

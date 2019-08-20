@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/arrayrotation.c" "C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/cmake-build-debug/CMakeFiles/Programs_of_c.dir/arrayrotation.c.obj"
+  "C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/tripletprogram.c" "C:/Users/Deeksha Kashyap/CLionProject/Programs of c/Example/cmake-build-debug/CMakeFiles/Programs_of_c.dir/tripletprogram.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
